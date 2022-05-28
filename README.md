@@ -17,5 +17,9 @@ Globomantics is a fictitious company used to walk through what sometimes the cur
 
 #### Pain Point: Slow Delivery.
 - Globomantics is struggling here, delivery spped is not up, ther're seeing competitor ship musch faster than they are, everything here seems to take forever, new apps, bug fixes, software upgrades, going from idea to production, they saying it is agile
-but the minimum viable product looks suspiciously like a fully built solution, there's very little incremental learnng happening here.
-- The flow is lumpy.
+but the minimum viable product looks suspiciously like a fully built solution.
+- The flow is lumpy, there are piles of project proposals sitting in front of project managers, ther are stacks of apps that need testing by QA. there's a truckload of code
+waiting for deployment managers to push it out, there's just lot of differnet work sitting in front of different teams. 
+- Lack of self-service, the company doesn't have much here. most of every test or production change goes through one team, and development teams aren't really empowered to do much on their own.
+- Change Freezes, their holidays where no changes are allowed, the problem is as soon as that changes freezes lifts, they dump hundreds of changes into environments at once, then you can't easily find the offending code when something inevitably fails, so as much as the changes freeze is designed to increase stability, it's actually making things worse.
+- Big-bang releases are the norm, causing downtime, some of releases not doing us any favors either
