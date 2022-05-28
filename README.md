@@ -22,4 +22,10 @@ but the minimum viable product looks suspiciously like a fully built solution.
 waiting for deployment managers to push it out, there's just lot of differnet work sitting in front of different teams. 
 - Lack of self-service, the company doesn't have much here. most of every test or production change goes through one team, and development teams aren't really empowered to do much on their own.
 - Change Freezes, their holidays where no changes are allowed, the problem is as soon as that changes freezes lifts, they dump hundreds of changes into environments at once, then you can't easily find the offending code when something inevitably fails, so as much as the changes freeze is designed to increase stability, it's actually making things worse.
-- Big-bang releases are the norm, causing downtime, some of releases not doing us any favors either
+- Big-bang releases are the norm, causing downtime, some of releases not doing us any favors either the incremental release are tough, and everythis get bunched to these big release to happen a few times a year, so everyone cramps as much as they can int that release, inevitably slowing thing down even further.
+- Limited experimentation because of slow feedback loops, by the time an experiment would ship, they've already moved on, so you end up with a lot of very stale static sort of stuff versus experimenting and learning continuously because it just takes too much work to ship.
+
+#### Pain Point: Poor Uptime.
+- At Globomantics, uptime problems are really hurting the company's reputation, they're causing some longstanding customers to start looking elsewhere, specifically, there's a bad change,failure rate way to many changes result in downtime and they seem make the same mistake over and over again, so when this happen we get even more hesitant to ship, because the pain afterwards,so we do less ship, so it's slowing down.
+- Long mean-time-to-recovery, when something does go wrong getting back take hours even days, the result is a panic because there isn't much confidance that the system can come back quickly.
+- Panic when things go wrong, the panic means that we got even more distracted when it comes to figure out what is the root cause. 
